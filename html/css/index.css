@@ -1,0 +1,137 @@
+/* Customs fonts for use in the site*/
+@font-face {
+  font-family: 'Title-Font'; /* font for ids 'title' */
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/expletus-sans:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'tagline-font';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/roboto-slab:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: 'phrase-font';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/bebas-neue@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/bebas-neue@latest/latin-400-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: 'main-font';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/ubuntu-mono@latest/latin-400-normal.woff2) format('woff2'),
+       url(https://cdn.jsdelivr.net/fontsource/fonts/ubuntu-mono@latest/latin-400-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+body{
+    background-color: rgb(202, 34, 202);
+    height: 100%;
+}
+main{
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding-top: 25px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.title{
+    font-family: 'Title-Font', sans-serif;
+    text-shadow: 10px 10px 10px rgb(76, 13, 76);
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    color:white;
+    max-width: 100%;
+    margin-bottom: 30px;
+    margin-top: 5%;
+    letter-spacing: 40px;
+    font-size: 10vw;
+    font-weight: 400;
+    padding-top: 25px;
+}
+.nav-title{
+    font-family: 'Title-Font', sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.title#download{
+    font-size: 8vw;   
+    letter-spacing: 30px;
+}
+
+
+#home{
+    background-color: white;
+    padding-top: 45px;
+    padding: 5%;
+    height: auto;
+    margin-bottom: 0px;
+    padding-bottom: 5%;
+}
+
+#tagline{
+    font-family: 'tagline-font', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 3%;
+    text-decoration: underline;
+    font-size:290% ;
+}
+
+#content{
+    font-family: 'main-font', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: large
+}
+
+#phrase{
+    font-family: 'phrase-font', sans-serif;
+    font-weight: 500;
+    font-size: 300%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#buttoncontain{
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+
+#button{
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    border: 0px;
+    color: whitesmoke;
+    background-color: blueviolet;
+    padding:2.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-radius: 25px;
+    margin: 5%;
+}
