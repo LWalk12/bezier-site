@@ -46,15 +46,15 @@
         <h1 class="title">SIGN-UP</h1>
 
         <div id="home">
-            <form action="" name="sign-up">
-                <label id="content" for="email">Enter your email:</label><br>
-                <input  type="email" name="user-contact" id="email"><br>
-                <label id="content"  for="username">Enter your username:</label><br>
-                <input type="text" name="user" id="username"><br>
-                <label id="content" for="password">Enter your password:</label> <br>
-                <input type="password" name="pass" id="password"><br>
-                <label id="content" for="pass-confirm">Confirm your password:</label> <br>
-                <input type="password" name="pass-confirm" id="pass-confirm"><br> <br>
+            <form action="" name="sign-up"style="display:grid; place-items: center; margin:auto;">
+                <label id="content" for="email">Email:</label>
+                <input  type="email" name="user-contact" id="email" placeholder="Enter Email"><br>
+                <label id="content"  for="username">Enter Username:</label>
+                <input type="text" name="user" id="username" placeholder="Username"><br>
+                <label id="content" for="password">Enter Password:</label>
+                <input type="password" name="pass" id="password" placeholder="Enter Password"><br>
+                <label id="content" for="pass-confirm">Confirm Password:</label> 
+                <input type="password" name="pass-confirm" id="pass-confirm" placeholder="Confirm Password"><br> <br>
                 <!-- button for taking all the information gathered above-->
                 <button id="button" onclick="alert(document.getElementById('email').value + ', ' + document.getElementById('username').value + ', ' + document.getElementById('password').value + ', ' + document.getElementById('pass-confirm').value)">SIGN UP</button>
             </form>

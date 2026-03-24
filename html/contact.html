@@ -44,19 +44,26 @@
     <main>
 
         <h1 class="title">CONTACT</h1>
-        <div id="home">
+        <div id="home" style="display: flex;">
             <form>
-                <label id="content" for="email">Enter your email:</label>
-                <input type="email" name="user-contact" id="email">
+                <label id="content" for="email">Email:</label>
+                <input type="email" name="user-contact" id="email" placeholder="Email...">
                 <br>
                 <label id="content" for="problem">Describe the issue:</label><br>
-                <textarea name="problem" id="problem content" style="height: 300px; width: 500px">Enter problem here...</textarea>
+                <textarea name="problem" id="problem content" style="height: 300px; width: 400px; border-radius: 20px; padding:10px"placeholder="Enter problem here..."></textarea>
                 
                 <br>
-
+                <!-- This button is for taking complaints or feed back from users-->
                 <button id="button" type="submit">Submit</button>
                 
             </form>
+
+            <div>
+                <h3 id="tagline">HAVING ISSUES?</h3><br>
+                <p id="content">Submit a complaint detailing what problems your having, be sure to add your email so we can contact you for once resolves </p>
+                <p id="content">If experiancing issues please submit a form detailing the issue</p>
+
+            </div>
         </div>
     </main>
     <footer>
