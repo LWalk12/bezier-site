@@ -136,6 +136,7 @@ main{
     border-radius: 25px;
     margin: 5%;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 input{
