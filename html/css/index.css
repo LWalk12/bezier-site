@@ -43,6 +43,7 @@
 body{
     background-color:#92028b;
     height: 100%;
+    background-image: conic-gradient(from 0deg, oklch(0.464 0.23 289.332), oklch(0.36 0.181 280.276), oklch(0.826 0.154 331.464), oklch(0.728 0.217 333.186), oklch(0.464 0.23 289.332));
 }
 main{
     background-color: transparent;
